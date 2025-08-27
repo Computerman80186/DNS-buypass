@@ -14,7 +14,7 @@ def main():
   while Listening:
     s.listen(1)
     eval(str(conadr_name)+"_conn"", "+str(conaddr_name)+"_addr = s.accept()")              # NAME_conn, NAME_addr = s.accept()
-    eval(str(var_name)+"= client("+str(conadr_name)+"_conn", str(conadr_name)+"_addr)")     # VAR_NAME = client(NAME_conn, NAME_addr)
+    eval(str(var_name)+"= client("+str(conadr_name)+"_conn", str(conadr_name)+"_addr)")    # VAR_NAME = client(NAME_conn, NAME_addr)
     var_num += 1
     conaddr_name += 1
     
